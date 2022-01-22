@@ -10,7 +10,7 @@ User.destroy_all
 
 tj = User.create(
     email: "Tjbachorz@gmail.com",
-    password_digest: "hi_there"
+    password: "hi_there"
 )
 
 Sleeplog.create(
