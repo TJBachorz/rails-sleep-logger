@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  night_of_date: MyString
+  bedtime: MyString
+  approximate_sleep_time: MyString
+  sleep_interrupted: 1
+  sleep_lost_from_interruptions: 1.5
+  wake_up_time: MyString
+  ate_spicy: false
+  drank_alcohol: false
+  sleep_meds: false
+  user_id: one
+  notes: MyString
+
+two:
+  night_of_date: MyString
+  bedtime: MyString
+  approximate_sleep_time: MyString
+  sleep_interrupted: 1
+  sleep_lost_from_interruptions: 1.5
+  wake_up_time: MyString
+  ate_spicy: false
+  drank_alcohol: false
+  sleep_meds: false
+  user_id: two
+  notes: MyString
