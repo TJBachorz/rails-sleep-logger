@@ -28,7 +28,7 @@ class UsersController < ApplicationController
 
         if @user && @user.authenticate(params[:password])
             @token = JWT.encode({ user_id: @user.id}, Rails.application.secrets.secret_key_base[0])
-            render json: { user: @user, token: @token }
+            render json: { id: @user.id, email: @user.email, token: @token }
         else 
             render json: { message: "Invalid email or password" }
         end
