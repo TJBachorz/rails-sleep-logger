@@ -10,7 +10,7 @@ class CreateSleeplogs < ActiveRecord::Migration[6.0]
       t.boolean :ate_spicy
       t.boolean :drank_alcohol
       t.boolean :sleep_meds
-      t.references :user, null: false, foreign_key: true
+      t.references :user, index: true, null: false, foreign_key: true
       t.string :notes
 
       t.timestamps

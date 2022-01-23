@@ -10,7 +10,7 @@ one:
   ate_spicy: false
   drank_alcohol: false
   sleep_meds: false
-  user_id: one
+  user_id: 6
   notes: MyString
 
 two:
@@ -23,5 +23,5 @@ two:
   ate_spicy: false
   drank_alcohol: false
   sleep_meds: false
-  user_id: two
+  user_id: 6
   notes: MyString
